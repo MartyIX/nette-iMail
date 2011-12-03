@@ -1,0 +1,7 @@
+{addHelper 'parenthesis', '\iMailTest::dummyParenthesisHelper'}
+
+{from 'no-reply@test.com'}
+{to 'you@serious.ly'}
+{subject 'dummy subject'}
+
+{message}{$name|parenthesis}{/message}
